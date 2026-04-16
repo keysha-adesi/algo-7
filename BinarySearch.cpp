@@ -33,4 +33,21 @@ void input ()
     }
 }
 
-void bubleSortArray
+void bubleSortArray()
+{
+    int pass = 1;
+    do
+    {
+     for (int j = 0; <= npanjang - 1 - pass; j++)
+     {
+        if (element[j] > element[j + 1])
+        {
+            int temp = element[j];
+            element[j] = element[j + 1];
+            element[j + 1] = temp;
+
+        }
+     }
+    }
+    
+}
