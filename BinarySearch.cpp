@@ -38,7 +38,7 @@ void bubleSortArray()
     int pass = 1;
     do
     {
-     for (int j = 0; <= npanjang - 1 - pass; j++)
+     for (int j = 0; j <= npanjang - 1 - pass; j++)
      {
         if (element[j] > element[j + 1])
         {
@@ -87,7 +87,7 @@ void binarySearch()
 
     do
     {
-        int mind = (low + high) /2;
+        int mid = (low + high) /2;
 
         if (element [mid] == x)
         {
