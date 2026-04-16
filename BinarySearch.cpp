@@ -24,7 +24,7 @@ void input ()
 
     cout << "\n========================\n";
     cout << "     Masukan Elemen Array   ";
-    Cout << "==========================\n";
+    cout  << "==========================\n";
 
     for (int i= 0; i <npanjang; i++)
     {
@@ -113,6 +113,13 @@ void binarySearch()
     
     } while (ulang == 'y' || ulang == 'y');
     
+}
+int main()
+{
+    input();
+    bubleSortArray();
+    display();
+    binarySearch();
 }
     
 
