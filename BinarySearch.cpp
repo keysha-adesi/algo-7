@@ -48,7 +48,7 @@ void bubleSortArray()
 
         }
      }
-     
-    }
+     pass++;
+    } while (pass <= npanjang -1)
     
 }
